@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nest Mind – Conversation Tree</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      color: #2e3a59;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      margin-left: 1.5rem;
+      padding-left: 1rem;
+      border-left: 2px solid #ccc;
+    }
+    li {
+      margin: 0.5rem 0;
+      padding: 0.3rem 0.6rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+    input, button {
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      margin-left: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Nest Mind – Conversation Tree</h1>
+    <div id="treeContainer"></div>
+
+    <div style="margin-top:2rem;">
+      <h3>Add New Node</h3>
+      <input id="titleInput" placeholder="Node Title" />
+      <input id="parentInput" placeholder="Parent Node ID (optional)" />
+      <button onclick="addNode()">Add Node</button>
+    </div>
+  </div>
+
+  <script>
+    async function fetchTree() {
+      const res = await fetch("/api/tree");
+      const data = await res.json();
+      const container = document.getElementById("treeContainer");
+      container.innerHTML = renderTree(data);
+    }
+
+    function renderTree(node) {
+      if (!node || !node.title) return "";
+      let html = `<li><b>${node.title}</b> <small style="color:#888;">(${node.id.slice(0, 6)})</small>`;
+      if (node.children && node.children.length > 0) {
+        html += "<ul>";
+        node.children.forEach(child => html += renderTree(child));
+        html += "</ul>";
+      }
+      html += "</li>";
+      return `<ul>${html}</ul>`;
+    }
+
+    async function addNode() {
+      const title = document.getElementById("titleInput").value.trim();
+      const parent_id = document.getElementById("parentInput").value.trim() || null;
+
+      if (!title) return alert("Please enter a title");
+
+      const res = await fetch("/api/add_node", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ title, parent_id })
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        alert("Node added successfully!");
+        fetchTree();
+      }
+    }
+
+    fetchTree();
+  </script>
+</body>
+</html>

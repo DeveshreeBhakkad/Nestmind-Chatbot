@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "aman",
+    "slug": "aman"
+  },
+  "sections": {
+    "sec_1762532816615": {
+      "id": "sec_1762532816615",
+      "title": "aman — section 1",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **aman** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **aman** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": []
+    }
+  },
+  "roots": [
+    "sec_1762532816615"
+  ],
+  "selected_section": null,
+  "focus_mode": false
+}

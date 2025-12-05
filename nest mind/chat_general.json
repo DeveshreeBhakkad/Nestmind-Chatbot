@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "general",
+    "slug": "general"
+  },
+  "sections": {
+    "sec_1762532736818": {
+      "id": "sec_1762532736818",
+      "title": "general — section 1",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **general** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **general** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": [
+        "sec_1762532754435",
+        "sec_1762532786977"
+      ]
+    },
+    "sec_1762532776232": {
+      "id": "sec_1762532776232",
+      "title": "hero",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **general** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **general** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": []
+    },
+    "sec_1762532786977": {
+      "id": "sec_1762532786977",
+      "title": "general — section 1 — sub",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **general** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **general** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": []
+    }
+  },
+  "roots": [
+    "sec_1762532736818",
+    "sec_1762532776232"
+  ],
+  "selected_section": "sec_1762532736818",
+  "focus_mode": true
+}

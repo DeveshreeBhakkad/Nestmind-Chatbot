@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "ss",
+    "slug": "ss"
+  },
+  "sections": {
+    "sec_1762540836807": {
+      "id": "sec_1762540836807",
+      "title": "ss — section 1",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **ss** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **ss** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": []
+    }
+  },
+  "roots": [
+    "sec_1762540836807"
+  ],
+  "selected_section": null,
+  "focus_mode": false
+}

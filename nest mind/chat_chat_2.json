@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "chat_2",
+    "slug": "chat_2"
+  },
+  "sections": {
+    "sec_1762540617382": {
+      "id": "sec_1762540617382",
+      "title": "chat_2 — section 1",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Topic **chat_2** — Ask me anything!"
+        }
+      ],
+      "conversation_data": {
+        "start": {
+          "message": "Topic **chat_2** — Ask me anything!",
+          "responses": {},
+          "embedding": null
+        }
+      },
+      "current_node": "start",
+      "children": []
+    }
+  },
+  "roots": [
+    "sec_1762540617382"
+  ],
+  "selected_section": null,
+  "focus_mode": false,
+  "prev_focus_mode": false
+}
