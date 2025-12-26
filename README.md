@@ -3,13 +3,15 @@
 “Every thought creates a path. NestMind remembers the paths you choose.” ✨
 
 An intelligent, context-aware AI chatbot that doesn’t just answer questions — it thinks, remembers, and grows with your conversations.
-
+---
 🌟 What is NestMind?
 
 NestMind is a smart conversational AI built using Streamlit + Google Gemini API.
 It organizes conversations into sections & sub-sections, remembers past interactions using embeddings, and delivers empathetic, structured, and relevant responses.
 
 Think of it as a second brain chatbot 🧠💬.
+
+---
 
 🚀 Key Features
 
