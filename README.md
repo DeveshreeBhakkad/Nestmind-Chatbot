@@ -1,10 +1,13 @@
-🧠 NestMind
+## 🧠 NestMind
 
 “Every thought creates a path. NestMind remembers the paths you choose.” ✨
 
-An intelligent, context-aware AI chatbot that doesn’t just answer questions — it thinks, remembers, and grows with your conversations.
+An intelligent, context-aware AI chatbot that doesn’t just answer questions 
+       " It Thinks, Remembers, and Grows with your conversations."
+
 ---
-🌟 What is NestMind?
+
+## 🌟 What is NestMind?
 
 NestMind is a smart conversational AI built using Streamlit + Google Gemini API.
 It organizes conversations into sections & sub-sections, remembers past interactions using embeddings, and delivers empathetic, structured, and relevant responses.
@@ -13,7 +16,7 @@ Think of it as a second brain chatbot 🧠💬.
 
 ---
 
-🚀 Key Features
+## 🚀 Key Features  
 
 ✅ Context-aware AI responses 
 ✅ Semantic memory using embeddings
@@ -23,7 +26,9 @@ Think of it as a second brain chatbot 🧠💬.
 ✅ Clean & interactive Streamlit UI
 ✅ Modular and extendable architecture
 
-🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 🔹 Python 3.x
 🔹 Streamlit – Frontend UI
@@ -32,7 +37,9 @@ Think of it as a second brain chatbot 🧠💬.
 🔹 dotenv – Environment management
 🔹 Tenacity – Reliable API retries
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
 ```bash
 nestmind/
 │
@@ -43,7 +50,9 @@ nestmind/
 ├── .env                🔐 API keys (not pushed to GitHub)
 ```
 
-⚙️ Installation & Setup
+---
+
+## ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
 ```bash
@@ -68,13 +77,18 @@ Create a .env file in the root folder:
 GEMINI_API_KEY=your_api_key_here
 ```
 
+---
+
 ▶️ Run the Application
+
 ```bash
 streamlit run app.py
 ```
 🌐 Open browser → http://localhost:8501
 
-💡 How NestMind Works
+---
+
+## 💡 How NestMind Works
 
 🧩 User Input →
 🧠 Memory Search (Embeddings) →
@@ -82,15 +96,20 @@ streamlit run app.py
 🤖 Gemini Generates Response →
 💾 New Knowledge Stored for Future Use
 
-🎯 Configuration Options
+---
+
+## 🎯 Configuration Options
 
 Setting	                        Description
+
 GEMINI_MODEL	            AI model used for responses
 EMBEDDING_MODEL	            Model for semantic memory
 SIMILARITY_THRESHOLD	    Memory match accuracy
 PERSIST	                    Enable chat persistence
 
-🔮 Future Enhancements
+---
+
+## 🔮 Future Enhancements
 
 🚀 Advanced knowledge base (Vector DB)
 🎨 Enhanced frontend UI & animations
@@ -98,9 +117,13 @@ PERSIST	                    Enable chat persistence
 🎤 Voice input & output
 🌐 Cloud deployment
 
-❤️ Why NestMind?
+---
+
+## ❤️ Why NestMind?
 
 Because good chatbots answer,
 but great chatbots remember.
+
+---
 
 ✨ Made with curiosity, logic, and a lot of thinking by Deveshree ✨
