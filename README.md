@@ -2,14 +2,14 @@
 
 “Every thought creates a path. NestMind remembers the paths you choose.” ✨
 
-An intelligent, context-aware AI chatbot that doesn’t just answer questions 
+An intelligent, context-aware AI chatbot that doesn’t just answer questions <br>
        " It Thinks, Remembers, and Grows with your conversations."
 
 ---
 
 ## 🌟 What is NestMind?
 
-NestMind is a smart conversational AI built using Streamlit + Google Gemini API.
+NestMind is a smart conversational AI built using Streamlit + Google Gemini API.<br>
 It organizes conversations into sections & sub-sections, remembers past interactions using embeddings, and delivers empathetic, structured, and relevant responses.
 
 Think of it as a second brain chatbot 🧠💬.
@@ -18,24 +18,24 @@ Think of it as a second brain chatbot 🧠💬.
 
 ## 🚀 Key Features  
 
-- ✅ Context-aware AI responses 
-- ✅ Semantic memory using embeddings
-- ✅ Section-based & nested conversations
-- ✅ Focus Mode for deep discussions 🔦
-- ✅ Multiple chats with sidebar navigation
-- ✅ Clean & interactive Streamlit UI
-- ✅ Modular and extendable architecture
+- ✅ Context-aware AI responses <Br>
+- ✅ Semantic memory using embeddings <br>
+- ✅ Section-based & nested conversations <br>
+- ✅ Focus Mode for deep discussions <br>
+- ✅ Multiple chats with sidebar navigation<br>
+- ✅ Clean & interactive Streamlit UI<br>
+- ✅ Modular and extendable architecture<br>
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🔹 Python 3.x
-- 🔹 Streamlit – Frontend UI
-- 🔹 Google Gemini API – LLM engine
-- 🔹 Text Embeddings – Semantic memory
-- 🔹 dotenv – Environment management
-- 🔹 Tenacity – Reliable API retries
+- Python 3.x
+- Streamlit – Frontend UI
+- Google Gemini API – LLM engine
+- Text Embeddings – Semantic memory
+- dotenv – Environment management
+- Tenacity – Reliable API retries
 
 ---
 
@@ -123,7 +123,7 @@ PERSIST	         →           Enable chat persistence
 
 ## ❤️ Why NestMind?
 
-Because good chatbots answer,/n
+Because good chatbots answer,<br>
 but great chatbots remember.
 
 ---
