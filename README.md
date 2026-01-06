@@ -18,13 +18,13 @@ Think of it as a second brain chatbot 🧠💬.
 
 ## 🚀 Key Features  
 
-- ✅ Context-aware AI responses <Br>
-- ✅ Semantic memory using embeddings <br>
-- ✅ Section-based & nested conversations <br>
-- ✅ Focus Mode for deep discussions <br>
-- ✅ Multiple chats with sidebar navigation<br>
-- ✅ Clean & interactive Streamlit UI<br>
-- ✅ Modular and extendable architecture<br>
+✅ Context-aware AI responses <Br>
+✅ Semantic memory using embeddings <br>
+✅ Section-based & nested conversations <br>
+✅ Focus Mode for deep discussions <br>
+✅ Multiple chats with sidebar navigation<br>
+✅ Clean & interactive Streamlit UI<br>
+✅ Modular and extendable architecture<br>
 
 ---
 
@@ -91,33 +91,33 @@ streamlit run app.py
 
 ## 💡 How NestMind Works
 
-- 🧩 User Input →
-- 🧠 Memory Search (Embeddings) 
-- 🔗 Relevant Context Retrieved 
-- 🤖 Gemini Generates Response 
-- 💾 New Knowledge Stored for Future Use
+🧩 User Input <br>
+🧠 Memory Search (Embeddings) <br>
+🔗 Relevant Context Retrieved <br>
+🤖 Gemini Generates Response <br>
+💾 New Knowledge Stored for Future Use<br>
 
 ---
 
 ## 🎯 Configuration Options
 ```bash
-Setting	                        Description
+Setting	                           Description
 
-GEMINI_MODEL	         →           AI model used for responses
-EMBEDDING_MODEL	  →           Model for semantic memory
-SIMILARITY_THRESHOLD	  →           Memory match accuracy
-PERSIST	         →           Enable chat persistence
+GEMINI_MODEL	         →            AI model used for responses
+EMBEDDING_MODEL	  →              Model for semantic memory
+SIMILARITY_THRESHOLD	  →               Memory match accuracy
+PERSIST	         →              Enable chat persistence
 ```
 
 ---
 
 ## 🔮 Future Enhancements
 
--  🚀 Advanced knowledge base (Vector DB)
-- 🎨 Enhanced frontend UI & animations
-- 👤 Multi-user support & authentication
-- 🎤 Voice input & output
-- 🌐 Cloud deployment
+🚀 Advanced knowledge base (Vector DB)<br>
+🎨 Enhanced frontend UI & animations<br>
+👤 Multi-user support & authentication<br>
+🎤 Voice input & output<br>
+🌐 Cloud deployment<br>
 
 ---
 
