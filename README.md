@@ -18,24 +18,24 @@ Think of it as a second brain chatbot 🧠💬.
 
 ## 🚀 Key Features  
 
-✅ Context-aware AI responses 
-✅ Semantic memory using embeddings
-✅ Section-based & nested conversations
-✅ Focus Mode for deep discussions 🔦
-✅ Multiple chats with sidebar navigation
-✅ Clean & interactive Streamlit UI
-✅ Modular and extendable architecture
+- ✅ Context-aware AI responses 
+- ✅ Semantic memory using embeddings
+- ✅ Section-based & nested conversations
+- ✅ Focus Mode for deep discussions 🔦
+- ✅ Multiple chats with sidebar navigation
+- ✅ Clean & interactive Streamlit UI
+- ✅ Modular and extendable architecture
 
 ---
 
 ## 🛠️ Tech Stack
 
-🔹 Python 3.x
-🔹 Streamlit – Frontend UI
-🔹 Google Gemini API – LLM engine
-🔹 Text Embeddings – Semantic memory
-🔹 dotenv – Environment management
-🔹 Tenacity – Reliable API retries
+- 🔹 Python 3.x
+- 🔹 Streamlit – Frontend UI
+- 🔹 Google Gemini API – LLM engine
+- 🔹 Text Embeddings – Semantic memory
+- 🔹 dotenv – Environment management
+- 🔹 Tenacity – Reliable API retries
 
 ---
 
@@ -62,6 +62,7 @@ cd nestmind
 2️⃣ Create Virtual Environment (Recommended)
 ```bash
 python -m venv venv
+
 venv\Scripts\activate     # Windows
 source venv/bin/activate  # Mac/Linux
 ```
@@ -90,38 +91,39 @@ streamlit run app.py
 
 ## 💡 How NestMind Works
 
-🧩 User Input →
-🧠 Memory Search (Embeddings) →
-🔗 Relevant Context Retrieved →
-🤖 Gemini Generates Response →
-💾 New Knowledge Stored for Future Use
+- 🧩 User Input →
+- 🧠 Memory Search (Embeddings) 
+- 🔗 Relevant Context Retrieved 
+- 🤖 Gemini Generates Response 
+- 💾 New Knowledge Stored for Future Use
 
 ---
 
 ## 🎯 Configuration Options
-
+```bash
 Setting	                        Description
 
-GEMINI_MODEL	            AI model used for responses
-EMBEDDING_MODEL	            Model for semantic memory
-SIMILARITY_THRESHOLD	    Memory match accuracy
-PERSIST	                    Enable chat persistence
+GEMINI_MODEL	         →           AI model used for responses
+EMBEDDING_MODEL	  →           Model for semantic memory
+SIMILARITY_THRESHOLD	  →           Memory match accuracy
+PERSIST	         →           Enable chat persistence
+```
 
 ---
 
 ## 🔮 Future Enhancements
 
-🚀 Advanced knowledge base (Vector DB)
-🎨 Enhanced frontend UI & animations
-👤 Multi-user support & authentication
-🎤 Voice input & output
-🌐 Cloud deployment
+-  🚀 Advanced knowledge base (Vector DB)
+- 🎨 Enhanced frontend UI & animations
+- 👤 Multi-user support & authentication
+- 🎤 Voice input & output
+- 🌐 Cloud deployment
 
 ---
 
 ## ❤️ Why NestMind?
 
-Because good chatbots answer,
+Because good chatbots answer,/n
 but great chatbots remember.
 
 ---
