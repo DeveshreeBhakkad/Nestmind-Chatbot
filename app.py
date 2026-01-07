@@ -8,9 +8,13 @@ from dotenv import load_dotenv
 from streamlit.components.v1 import html as st_html
 
 # PAGE CONFIG MUST COME BEFORE ANY STREAMLIT UI
-st.set_page_config(page_title="nestmind", layout="wide")
+st.set_page_config(
+    page_title="NestMind — AI with Memory",
+    layout="wide"
+)
 
-from ai_client import call_openai_chat
+
+from ai_client import call_openai_chat, configure_gemini
 
 # ==================
 # GLOBAL CONFIG
@@ -41,6 +45,8 @@ if not api_key:
     st.stop()
 
 st.sidebar.success("✅ GEMINI_API_KEY loaded (sanitized).")
+configure_gemini()
+
 
 # ==================
 # Embeddings (Gemini)
@@ -230,7 +236,14 @@ def chat_one_turn(section_node: dict, user_text: str, chat_title: str) -> str:
 # PAGE SHELL
 # ===========
 
-st.title("nestmind")
+st.markdown("""
+<h1 style="text-align:center;">🧠 NestMind</h1>
+<p style="text-align:center; font-size:18px; color:#9ca3af;">
+Context-aware AI assistant with semantic memory and focused conversations
+</p>
+<hr style="margin-top:20px; margin-bottom:20px;">
+""", unsafe_allow_html=True)
+
 
 if "chat_list" not in st.session_state:
     st.session_state.chat_list = []
@@ -246,6 +259,9 @@ if "scroll_to" not in st.session_state:
 # -----------------
 # Sidebar controls
 # -----------------
+st.markdown("## ⚙️ Control Panel")
+st.caption("Manage chats, sections, and memory")
+
 with st.sidebar:
     st.subheader("Chats")
 
