@@ -64,29 +64,29 @@ git clone https://github.com/your-username/nested-chatbot.git
 cd nested-chatbot
 ```
 
-2️⃣ Create virtual environment
+### 2️⃣ Create virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Set API key<br>
+### 4️⃣ Set API key<br>
 Create a .env file:
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
-5️⃣ Run the app
+### 5️⃣ Run the app
 ```bash
 streamlit run app.py
 ```
 ---
 
-☁️ Deployment Notes
+## ☁️ Deployment Notes
 
 - The app is deployed using Streamlit Cloud<br>
 - API keys are stored securely using Secrets<br>
@@ -95,7 +95,7 @@ streamlit run app.py
 
 ---
 
-🧠 Design Philosophy
+## 🧠 Design Philosophy
 
 This project intentionally prioritizes:<br>
    - Stability over unlimited usage<br>
@@ -105,7 +105,7 @@ This project intentionally prioritizes:<br>
 
 ---
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - Persistent chat history (database-backed)<br>
 - Chat search functionality<br>
@@ -115,7 +115,7 @@ This project intentionally prioritizes:<br>
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Deveshree Bhakkad
 Final-year AIML student | AI Systems & Product Thinking<br>
