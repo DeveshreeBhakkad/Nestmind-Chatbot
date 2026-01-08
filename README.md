@@ -2,7 +2,7 @@
 
 > *“Not just a chatbot — a system that understands conversations in context.”*
 
-🔗 **Live Demo:** https://nested-chatbot.streamlit.app
+🔗 **Live Demo:**  https://nested-chatbot.streamlit.app
 
 ---
 
@@ -75,8 +75,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4️⃣ Set API key
-
+4️⃣ Set API key<br>
 Create a .env file:
 ```bash
 GEMINI_API_KEY=your_api_key_here
@@ -89,49 +88,37 @@ streamlit run app.py
 
 ☁️ Deployment Notes
 
-- The app is deployed using Streamlit Cloud
-
-- API keys are stored securely using Secrets
-
-- The app automatically redeploys on every GitHub push
-
-- Designed to work reliably even when API limits are reached
+- The app is deployed using Streamlit Cloud<br>
+- API keys are stored securely using Secrets<br>
+- The app automatically redeploys on every GitHub push<br>
+- Designed to work reliably even when API limits are reached<br>
 
 ---
 
-
 🧠 Design Philosophy
 
-This project intentionally prioritizes:
-
-  - Stability over unlimited usage
-
-  - Clear UX over flashy UI
-
-  - Graceful failure over crashes
-
-  - Real-world constraints over toy examples
+This project intentionally prioritizes:<br>
+   - Stability over unlimited usage<br>
+   - Clear UX over flashy UI<br>
+   - Graceful failure over crashes<br>
+   - Real-world constraints over toy examples<br>
 
 ---
 
 🔮 Future Enhancements
 
-- Persistent chat history (database-backed)
-
-- Chat search functionality
-
-- Memory toggles per chat
-
-- User authentication
-
-- Advanced memory visualization
+- Persistent chat history (database-backed)<br>
+- Chat search functionality<br>
+- Memory toggles per chat<br>
+- User authentication<br>
+- Advanced memory visualization<br>
 
 ---
 
 👩‍💻 Author
 
 Deveshree Bhakkad
-Final-year AIML student | AI Systems & Product Thinking
+Final-year AIML student | AI Systems & Product Thinking<br>
 🔗 GitHub: https://github.com/DeveshreeBhakkad
 
 ⭐ If you like this project, feel free to star the repo!
