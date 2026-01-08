@@ -1,131 +1,141 @@
-## 🧠 NestMind
+# 🧠 Nested Chatbot (NestMind)
 
-“Every thought creates a path. NestMind remembers the paths you choose.” ✨
+> *“Not just a chatbot — a system that understands conversations in context.”*
 
-An intelligent, context-aware AI chatbot that doesn’t just answer questions <br>
-       " It Thinks, Remembers, and Grows with your conversations."
-
----
-
-## 🌟 What is NestMind?
-
-NestMind is a smart conversational AI built using Streamlit + Google Gemini API.<br>
-It organizes conversations into sections & sub-sections, remembers past interactions using embeddings, and delivers empathetic, structured, and relevant responses.
-
-Think of it as a second brain chatbot 🧠💬.
+🔗 **Live Demo:** https://nested-chatbot.streamlit.app
 
 ---
 
-## 🚀 Key Features  
+## 🌟 Overview
 
-✅ Context-aware AI responses <Br>
-✅ Semantic memory using embeddings <br>
-✅ Section-based & nested conversations <br>
-✅ Focus Mode for deep discussions <br>
-✅ Multiple chats with sidebar navigation<br>
-✅ Clean & interactive Streamlit UI<br>
-✅ Modular and extendable architecture<br>
+**Nested Chatbot (NestMind)** is a multi-chat, memory-aware AI assistant built to explore how conversations can be organized, contextual, and structured — similar to how humans think in nested ideas rather than flat chats.
+
+The project focuses on **clean UX, real-world AI constraints, and production-ready behavior**, rather than just generating responses.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Key Features
 
-- Python 3.x
-- Streamlit – Frontend UI
-- Google Gemini API – LLM engine
-- Text Embeddings – Semantic memory
-- dotenv – Environment management
-- Tenacity – Reliable API retries
+### 🗂️ Multi-Chat System (ChatGPT-style)
+- Create multiple chats
+- Switch between chats instantly
+- Rename chats
+- Delete chats
+- Sidebar behaves like a **VS Code file explorer**
+
+### 🧠 Context-Aware Conversations
+- Each chat maintains its own conversation context
+- System prompt ensures thoughtful, concise responses
+- Designed for focused and meaningful interactions
+
+### 🎨 Polished UI / UX
+- Dark theme with warm accent colors
+- Clean chat bubbles
+- Minimal, distraction-free interface
+- Optimized spacing for better readability
+
+### 🛡️ Graceful API Limit Handling
+- Handles Gemini API quota limits without crashing
+- Shows a user-friendly message instead of errors
+- Designed with **real-world production constraints** in mind
+
+### ☁️ Deployed & Live
+- Hosted on **Streamlit Cloud**
+- Secure API key management using Secrets
+- Public, shareable URL
 
 ---
 
-## 📁 Project Structure
+## 🧰 Tech Stack
+
+- **Frontend & App Framework:** Streamlit
+- **Language:** Python 3.11
+- **AI Model:** Google Gemini (Generative AI)
+- **Deployment:** Streamlit Cloud
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### 1️⃣ Clone the repository
 ```bash
-nestmind/
-│
-├── app.py              🧠 Main Streamlit application
-├── ai_client.py        🤖 Gemini API wrapper & retry logic
-├── retrieval.py        📚 Context retrieval (extendable)
-├── requirements.txt    📦 Project dependencies
-├── .env                🔐 API keys (not pushed to GitHub)
+git clone https://github.com/your-username/nested-chatbot.git
+cd nested-chatbot
 ```
 
----
-
-## ⚙️ Installation & Setup
-
-1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/nestmind.git
-cd nestmind
-```
-2️⃣ Create Virtual Environment (Recommended)
+2️⃣ Create virtual environment
 ```bash
 python -m venv venv
-
-venv\Scripts\activate     # Windows
-source venv/bin/activate  # Mac/Linux
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-3️⃣ Install Dependencies
+3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Set Environment Variables
-Create a .env file in the root folder:
+4️⃣ Set API key
+
+Create a .env file:
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
-
----
-
-▶️ Run the Application
-
+5️⃣ Run the app
 ```bash
 streamlit run app.py
 ```
-🌐 Open browser → http://localhost:8501
+---
+
+☁️ Deployment Notes
+
+- The app is deployed using Streamlit Cloud
+
+- API keys are stored securely using Secrets
+
+- The app automatically redeploys on every GitHub push
+
+- Designed to work reliably even when API limits are reached
 
 ---
 
-## 💡 How NestMind Works
 
-🧩 User Input <br>
-🧠 Memory Search (Embeddings) <br>
-🔗 Relevant Context Retrieved <br>
-🤖 Gemini Generates Response <br>
-💾 New Knowledge Stored for Future Use<br>
+🧠 Design Philosophy
 
----
+This project intentionally prioritizes:
 
-## 🎯 Configuration Options
-```bash
-Setting	                           Description
+  - Stability over unlimited usage
 
-GEMINI_MODEL	         →            AI model used for responses
-EMBEDDING_MODEL	  →              Model for semantic memory
-SIMILARITY_THRESHOLD	  →               Memory match accuracy
-PERSIST	         →              Enable chat persistence
-```
+  - Clear UX over flashy UI
+
+  - Graceful failure over crashes
+
+  - Real-world constraints over toy examples
 
 ---
 
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
-🚀 Advanced knowledge base (Vector DB)<br>
-🎨 Enhanced frontend UI & animations<br>
-👤 Multi-user support & authentication<br>
-🎤 Voice input & output<br>
-🌐 Cloud deployment<br>
+- Persistent chat history (database-backed)
 
----
+- Chat search functionality
 
-## ❤️ Why NestMind?
+- Memory toggles per chat
 
-Because good chatbots answer,<br>
-but great chatbots remember.
+- User authentication
+
+- Advanced memory visualization
 
 ---
 
-✨ Made with curiosity, logic, and a lot of thinking by Deveshree ✨
+👩‍💻 Author
+
+Deveshree Bhakkad
+Final-year AIML student | AI Systems & Product Thinking
+🔗 GitHub: https://github.com/DeveshreeBhakkad
+
+⭐ If you like this project, feel free to star the repo!
+
+
+---
+
