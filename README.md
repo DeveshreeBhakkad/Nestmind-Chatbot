@@ -14,6 +14,11 @@ The project focuses on **clean UX, real-world AI constraints, and production-rea
 
 ---
 
+## 📸 Preview
+![NestMind Interface](demo.png)
+
+---
+
 ## 🎯 Research Motivation
 
 Existing chatbots treat conversations as flat sequences.
