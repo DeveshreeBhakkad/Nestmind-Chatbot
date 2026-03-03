@@ -14,6 +14,18 @@ The project focuses on **clean UX, real-world AI constraints, and production-rea
 
 ---
 
+## 🎯 Research Motivation
+
+Existing chatbots treat conversations as flat sequences.
+NestMind explores a nested context architecture where:
+- Each conversation maintains isolated memory
+- Context switching happens without information leakage
+- System behavior mirrors human cognitive organization
+This has direct implications for multi-agent AI systems 
+and memory management in LLMs.
+
+---
+
 ## ✨ Key Features
 
 ### 🗂️ Multi-Chat System (ChatGPT-style)
